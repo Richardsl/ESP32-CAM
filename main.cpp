@@ -45,12 +45,14 @@ IPAddress primaryDNS(1, 1, 1, 1);   // optional
 IPAddress secondaryDNS(1, 0, 0, 1); // optional
 // r stop
 
+
+
 // ===========================
 // Enter your WiFi credentials
 // ===========================
+const char* ssid = "**********************************************************************";
+const char* password = "******************************************************************";
 
-const char* ssid = "**********";
-const char* password = "*********";
 
 
 void startCameraServer();
